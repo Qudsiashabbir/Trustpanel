@@ -1,0 +1,192 @@
+.container{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+}
+.main-div {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.service-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.service-row img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.service-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.service-row .service-name {
+    font-size: 25px;
+}
+
+.service-row .price {
+    font-size: 20px;
+    font-weight: italic;
+    margin-right: 10px;
+
+}
+
+.service-row .delivery {
+    margin-right: 15px;
+    color: palegreen;
+    font-size: 20px;
+}
+
+.service-row .order-now-btn {
+    background-color:white;
+    border: #e53935;
+    color: #e53935;
+    border: 1px solid;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service-row .order-now-btn:hover {
+    background-color: #e53935;
+    color: white;
+}
+.faqdiv{
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+}
+
+.faq-section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item .question {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.faq-item .question .plus-icon {
+    margin-right: 5px;
+}
+
+.faq-item .answer {
+    display: none;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 991px) {
+    .faq-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .faq-item {
+        width: 48%;
+    }
+}
+
+
+.new-section {
+    margin: auto;
+    align-content: center;
+    width: 97%;
+    align-items: center;
+    background-color: #FF3366;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.new-section-content {
+    max-width: 40vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.new-section h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.new-section p {
+    color: white;
+    font-size: 16px;
+}
+
+.get-started-btn {
+    background-color: white;
+    color: #FF3366;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile View */
+@media screen and (max-width: 480px) {
+    .service-row {
+        justify-items: space-between;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .service-row .delivery{
+        display: hidden;
+        display: none;
+    }
+    
+    .service-details {
+        align-items: flex-start;
+    }
+    
+    .service-row .service-name {
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    .service-row .service-name{
+        font-size: 15px;
+
+    }
+    .price{
+        font-size: 10px;
+    }
+    .service-row .order-now-btn{
+        font-size: 10px;
+        width: 60%;
+        height: 30px;
+        font-weight: 200;
+        font-size: xx-small;
+    }
+    .faq-section {
+        flex-direction: column;
+    }
+    
+    .faq-item {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,103 @@
+
+.container-main{
+
+    background-color:rgba(58, 56, 56, 0.137);
+}
+.bannerarea{
+    display: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding: 50px;
+    width: 90%;
+
+}
+.proservice{
+   padding: 50px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+}
+.proparagraph{
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.menu-row {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-dropdown-btn {
+  width: 300px; /* Set a fixed width for the dropdown buttons */
+  margin-top: 80px;
+  height: 50px;
+  background-color:black;
+}
+.custom-dropdown-btn:hover {
+  background-color: slategrey;
+}
+.custom-dropdown-btn:active {
+  background-color: slategrey !important;
+}
+
+.custom-dropdown .dropdown-item {
+    border: red 2px solid ;
+    border-radius: 10px;
+  color: black !important;
+  width: 300px;
+  margin: 10px 0;
+}
+.custom-dropdown:active{
+    background-color: slategray;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  
+  color: white;
+}
+
+
+/* Adjust the submenu link styles */
+.custom-dropdown .dropdown-menu a {
+  color: black;
+}
+.accordion-items-my {
+width: 70%;
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+padding: 20px;
+
+}
+.accordion-item{
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 768px) {
+.checkout-page {
+flex-wrap: wrap;
+}
+
+.left-section,
+.right-section {
+width: 48%;
+}
+}
+@media screen and (max-width: 767px) {
+.checkout-page {
+flex-direction: column;
+}
+
+.left-section,
+.right-section {
+width: 100%;
+}
+
+.left-section button {
+margin-top: 10px;
+}
+}

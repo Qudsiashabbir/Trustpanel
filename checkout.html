@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Trust Panels</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content=""> 
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+
+  <style>
+    body {
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .containerr {
+      max-width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .cardd {
+      
+      background-color: #ffffff;
+      border: 2px solid #d72a18;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    
+    .cardd-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .cardd-form {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+    
+    .cardd-form label {
+      display: block;
+      margin-top: 10px;
+    }
+    
+    .cardd-form input[type="text"],
+    .cardd-form textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #d72a18;
+      border-radius: 4px;
+      margin-top: 5px;
+    }
+    
+    .cardd-form button {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #d72a18;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .cardd-form button:hover {
+      background-color: #ba1f0f;
+    }
+    
+    .cardd-summary {
+      flex: 1 1 100%;
+    }
+    
+    .cardd-summary p {
+      margin: 0;
+      margin-bottom: 5px;
+    }
+    
+    @media only screen and (min-width: 850px) {
+      .cardd-form {
+        flex: 0 0 48%;
+        margin: 10px;
+        margin-bottom: 0;
+      }
+    
+      .cardd-summary {
+        flex: 0 0 40%;
+        margin-left: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+    <div class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo"><a href="index.html">Trust
+              <span class="logospan">Panels</span>
+              </a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Services</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="about.html">Check Orders</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="Products.html">Get Started</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li> -->
+              </ul>
+              <form class="form-inline my-2 my-lg-0">              
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">GET STARTED</button>
+              </form>
+              <div class="search_icon">
+                <ul>
+                  <li><a href="#"><img src="images/user-icon.png"></a></li>
+                  <!-- <li><a href="#"><img src="images/bag-icon.png"></a></li> -->
+                  <!-- <li><a href="#"><img src="images/search-icon.png"></a></li> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+     
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="containerr">
+    <div class="cardd">
+      <div class="cardd-form">
+        <div class="cardd-header">
+          <h2>Checkout</h2>
+        </div>
+        <form id="checkoutForm">
+          <label for="cardHolderName">Cardholder Name</label>
+          <input type="text" id="cardHolderName" name="cardHolderName">
+    
+          <label for="cardNumber">Card Number</label>
+          <input type="text" id="cardNumber" name="cardNumber">
+    
+          <label for="expiryDate">Expiry Date</label>
+          <input type="text" id="expiryDate" name="expiryDate">
+    
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv">
+    
+          <label for="billingAddress">Billing Address</label>
+          <textarea id="billingAddress" name="billingAddress"></textarea>
+    
+          <button type="submit">Checkout</button>
+        </form>
+      </div>
+      <div class="cardd-summary">
+        <div class="cardd-header">
+          <h2>Order Summary</h2>
+        </div>
+        <div class="order-details">
+          <p><strong>Price:</strong> $24.99</p>
+          <p><strong>Automatic Refill:</strong> Yes</p>
+          <p><strong>No Password required:</strong> Yes</p>
+          <p><strong>Fast & Secure Delivery:</strong> Yes</p>
+          <p><strong>24/7 Support:</strong> Yes</p>
+          <p><strong>Number of Likes:</strong> 100</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="footer_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <!-- <div class="fooer_logo"><img src="images/footer-logo.png"></div> -->
+          <h1 class="customer_text">CUSTOMER SERVICE</h1>
+          <p class="footer_lorem_text">There are many variat
+ions of passages of L
+orem Ipsum available
+, but the majority h
+ave suffered altera
+tion in some form, by </p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h1 class="customer_text">LET US HELP YOU</h1>
+          <p class="footer_lorem_text">There are many variat
+ions of passages of L
+orem Ipsum available
+, but the majority h
+ave suffered altera
+tion in some form, by </p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h1 class="customer_text">INFORMATION</h1>
+          <p class="footer_lorem_text1">About Us<br>
+Careers<br>
+Sell on shopee<br>
+Press & News<br>
+Competitions<br>
+Terms & Conditions</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h1 class="customer_text">OUR SHOP</h1>
+          <p class="footer_lorem_text">There are many variat
+ions of passages of L
+orem Ipsum available
+, but the majority h
+ave suffered altera
+tion in some form, by </p>
+        <div class="social_icon">
+          <ul>
+            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+            <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  footer section end -->
+  <!-- copyright section start -->
+  <div class="copyright_section">
+    <div class="container">
+      <div class="border"></div>
+      <p class="copyright_text">2023 All Rights Reserved. Design by <a href="https://html.design"></a></p>
+    </div>
+  </div>
+  
+</body>
+</html>
